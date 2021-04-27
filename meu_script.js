@@ -1,1 +1,1 @@
-alert('Olá, Seja bem vindo ao curso!!!')
+alert('Olá, Seja bem vindo ao curso de JacaScript!!!')
