@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercícios</title>
+</head>
+
+<script>
+	var N1 = prompt('Digite um número:')
+	var op = prompt('Digite a operação: ')
+	var N2 = prompt('Digite outro número:')
+
+	function calc(N1,N2, op){
+		N1 = parseFloat(N1)
+		N2 = parseFloat(N2)
+
+		var resultado = 0
+
+		if(op == soma){
+			resultado = N1 + N2
+		}
+		if(op == subtacao){
+			resultado = N1 - n2
+		}
+		return resultado
+	}
+
+	document.write('O resultado é:'+calc(N1,N2,op))
+</script>
+<body>
+	<h3> Crie uma aplicação para efetuuar cálculo aritméticos de soma e subtração considere os seguintes critérios:</h3>
+	<p>
+		1) Ao executar o script a aplicação deve solicitar a entrada de um número, seguido de uma operação de soma ou subtração e posteriormente seguido de um número.
+	</p>
+	<p>
+		2)A operação deve ser inserida pelo usuário de forma textual, ou seja, quando o sistema solicita a operação o usuário deve informar o texto'soma' ou 'subtração'(sem as aspas).
+	</p>
+	<p>
+		3) Na sequência o sistema deve enviar os parâmetros para uma função efetuar o devido
+        cálculo. Exemplo: calculo(num1, num2, operacao). 
+	</p>
+	<p>
+		4) A função deve executar o cálculo com base na operação informada pelo usuário e na
+        sequência deve retornar o valor encontrado. 
+	</p>
+	<p>
+		5) Ao término o sistema deve fornecer a seguinte saída para o usuário:
+	</p>
+	<p>
+		“O resultado é: <resultado>.”
+        *A informação em vermelho é uma variável e deve ser substituída pelo seu respectivo valor
+        calculada dentro da aplicação. 
+	</p>
+
+</body>
+</html>
