@@ -4,26 +4,15 @@
 	<meta charset="utf-8">
 	<title>Operadores aritmeticos</title>
 	<script>
+		 function soma(a,b){
+		 	return a+b
+		 }
 
-		//void
-		//return
-
-		function calcularAreaTerreno(largura, comprimento){
-			// lógica
-
-			var area = largura * comprimento
-
-			//document.write('O terreno possui ' + area + 'metros quadrados.')
-			return area
-		}
-
-		var largura = prompt('Digite a largura do terreno em metros')
-		var comprimento = prompt('Digite o comprimento do terreno')
-
-		var area = calcularAreaTerreno(15,25)
-
-		 document.write('O terreno possui ' + calcularAreaTerreno(largura,comprimento) + ' metros quadrados.')
-	
+		 console.log(soma(7,7))
+		 console.log(soma(7,7, 9,15))
+		 //desconsiderada os parâmetros adcionais
+		 console.log(soma(7))
+		 console.log(soma())	
 	</script>	
 </head>
 <body>
