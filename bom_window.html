@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bom windos</title>
+    <script>       
+
+        var janela
+         function abrirPopUp(){
+            janela = window.open('http://www.google.com','nova janela','width=200', 'height=100')
+         }
+
+         function fecharPopUp(){
+            janela.close()
+         }
+    </script>   
+        
+</head>
+<body>
+    <button onclick="abrirPopUp()">Abrir Janela</button>
+    <button onclick="fecharPopUp()">fechar Janela</button>
+    <button onclick="window.print()">Imprimir páginas</button>
+</body>
+</html>
