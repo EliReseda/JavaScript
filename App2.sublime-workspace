@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"posi",
+				"posicaoy"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -510,24 +514,11 @@
 			[
 				"d",
 				"div\tTag"
-			],
-			[
-				"wid",
-				"width\tproperty"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "array_multidimensional.html",
-			"settings":
-			{
-				"buffer_size": 720,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -559,8 +550,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Eli Reseda/Desktop/Udemy/App2"
+	],
 	"file_history":
 	[
+		"/C/Users/Eli Reseda/Desktop/Udemy/App2/estilo.css",
+		"/C/Users/Eli Reseda/Desktop/Udemy/App2/jogo.js",
+		"/C/Users/Eli Reseda/Desktop/Udemy/App2/app.html",
 		"/C/Users/Eli Reseda/Documents/ProjetoWeb/JavaScript/bom_timing.html",
 		"/C/Users/Eli Reseda/Documents/ProjetoWeb/JavaScript/bom_location.html",
 		"/C/Users/Eli Reseda/Documents/ProjetoWeb/JavaScript/bom_screen.html",
@@ -685,10 +683,7 @@
 		"/C/Users/Eli Reseda/Desktop/Udemy/criando barra de navegação/navegacao-vertical.html",
 		"/C/Users/Eli Reseda/Desktop/Udemy/heranca/css/estilo.css",
 		"/C/Users/Eli Reseda/Desktop/Udemy/heranca/css/heranca.html",
-		"/C/Users/Eli Reseda/Desktop/Udemy/css3 Intermediario e avançado/css/heranca.html",
-		"/C/Users/Eli Reseda/Desktop/Udemy/css3 Intermediario e avançado/css/estilo.css",
-		"/C/Users/Eli Reseda/Desktop/Udemy/css3 Intermediario e avançado/seletores.html",
-		"/C/Users/Eli Reseda/Desktop/Udemy/tecBlog/index.html"
+		"/C/Users/Eli Reseda/Desktop/Udemy/css3 Intermediario e avançado/css/heranca.html"
 	],
 	"find":
 	{
@@ -724,39 +719,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "array_multidimensional.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 720,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -837,7 +801,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 246.0,
+	"side_bar_width": 328.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
